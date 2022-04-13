@@ -25,10 +25,4 @@ public class BankingMenu {
         System.out.println("2. USD - United States Dollar");
         System.out.println("3. JPY - Japanese Yen");
     }
-
-    public void printUsers(String[] users) {
-        for (int i = 0; i < users.length; i++) {
-            System.out.print(users[i]);
-        }
-    }
 }

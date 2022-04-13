@@ -15,7 +15,6 @@ public class BankingCurrency {
 
     public float toUsd(float funds, String currency) {
 
-        System.out.println(currency);
         if (currency.equals("PHP")) {
             return funds *= 0.019;
         } else if (currency.equals("JPY")) { 
